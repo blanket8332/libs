@@ -1,4 +1,4 @@
-const glueArrs = (names, arrs) => {
+export const glueArrs = (names, arrs) => {
   const ret = [];
 
   arrs.forEach((arr, i) => {
@@ -12,5 +12,3 @@ const glueArrs = (names, arrs) => {
 
   return ret;
 };
-
-export default glueArrs;
